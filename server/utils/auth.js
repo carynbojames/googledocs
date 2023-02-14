@@ -15,6 +15,8 @@ module.exports = {
       token = token.split(' ').pop().trim();
     }
 
+    /// Starts to diverge here
+
     if (!token) {
       return res.status(400).json({ message: 'You have no token!' });
     }
